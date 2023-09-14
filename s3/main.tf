@@ -37,11 +37,11 @@ data "aws_iam_policy_document" "assume_role" {
   }
 }
 
-resource "aws_s3_bucket" "my-tf" {
-  bucket = "my-tf-test-bucket"
+resource "aws_s3_bucket" "zar-tf" {
+  bucket = "zar-tf-bucket"
 
   tags = {
-    Name        = "My bucket"
+    Name        = "Zar's bucket"
     Environment = "Dev"
   }
 }
