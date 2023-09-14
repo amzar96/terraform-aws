@@ -41,7 +41,7 @@ resource "aws_s3_bucket" "zar-tf" {
   bucket = "zar-tf-bucket"
 
   tags = {
-    Name        = "Zar's bucket"
+    Name        = "Zars bucket"
     Environment = "Dev"
   }
 }
